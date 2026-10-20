@@ -1,0 +1,22 @@
+﻿Chiến lược lấy mẫu,Mô hình,AUC,ACC,Kappa,Sens,Precision
+1. Lấy mẫu Ngẫu nhiên (Random),RF (Đơn lẻ),0.84,0.757,0.515,0.98,0.677
+1. Lấy mẫu Ngẫu nhiên (Random),LightGBM (Đơn lẻ),0.832,0.777,0.554,0.914,0.716
+1. Lấy mẫu Ngẫu nhiên (Random),XGBoost (Đơn lẻ),0.835,0.777,0.555,0.947,0.706
+1. Lấy mẫu Ngẫu nhiên (Random),Logistic Regression (Đơn lẻ - Tầng 1),0.818,0.751,0.502,0.868,0.698
+1. Lấy mẫu Ngẫu nhiên (Random),DNN (Đơn lẻ),0.812,0.748,0.495,0.862,0.701
+1. Lấy mẫu Ngẫu nhiên (Random),Stacking_Full4 (Tầng 2: Logistic Regression),0.837,0.774,0.548,0.908,0.715
+1. Lấy mẫu Ngẫu nhiên (Random),Stacking_Trees3 (Tầng 2: Logistic Regression - Tối ưu),0.884,0.826,0.653,0.954,0.759
+2. Tiếp cận Slope-IOE,RF (Đơn lẻ),0.893,0.813,0.626,0.901,0.765
+2. Tiếp cận Slope-IOE,LightGBM (Đơn lẻ),0.871,0.787,0.574,0.875,0.743
+2. Tiếp cận Slope-IOE,XGBoost (Đơn lẻ),0.893,0.803,0.607,0.888,0.758
+2. Tiếp cận Slope-IOE,Logistic Regression (Đơn lẻ - Tầng 1),0.856,0.784,0.567,0.868,0.742
+2. Tiếp cận Slope-IOE,DNN (Đơn lẻ),0.874,0.793,0.587,0.875,0.751
+2. Tiếp cận Slope-IOE,Stacking_Full4 (Tầng 2: Logistic Regression),0.908,0.833,0.666,0.901,0.792
+2. Tiếp cận Slope-IOE,Stacking_Trees3 (Tầng 2: Logistic Regression - Tối ưu),0.916,0.849,0.698,0.928,0.801
+3. Tiếp cận PU-Bagging (Đề xuất),RF (Đơn lẻ),0.917,0.846,0.692,0.914,0.803
+3. Tiếp cận PU-Bagging (Đề xuất),LightGBM (Đơn lẻ),0.897,0.826,0.652,0.882,0.793
+3. Tiếp cận PU-Bagging (Đề xuất),XGBoost (Đơn lẻ),0.909,0.836,0.672,0.895,0.8
+3. Tiếp cận PU-Bagging (Đề xuất),Logistic Regression (Đơn lẻ - Tầng 1),0.876,0.81,0.62,0.875,0.773
+3. Tiếp cận PU-Bagging (Đề xuất),DNN (Đơn lẻ),0.854,0.787,0.574,0.803,0.777
+3. Tiếp cận PU-Bagging (Đề xuất),Stacking_Full4 (Tầng 2: Logistic Regression),0.909,0.839,0.679,0.895,0.805
+3. Tiếp cận PU-Bagging (Đề xuất),Stacking_Trees3 (Tầng 2: Logistic Regression - Tối ưu),0.95,0.895,0.79,0.974,0.846
